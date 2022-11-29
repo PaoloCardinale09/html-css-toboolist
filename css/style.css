@@ -1,11 +1,8 @@
 * {
-margin: 0;
-padding: 0;
-box-sizing: border-box;
-font-family: 'Amiri Quran', serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-
-/* utils */
 
 body {
     background-color: #f5f8f9;
@@ -15,17 +12,20 @@ body {
 
 header {
     background-color: #fff;
-    height: 80px;
-    
 }
- #logo {
+
+#logo {
+    vertical-align: middle;
     margin-left: 20px;
- }
 
-h1{
-    display: inline;
-    font-size: 45px;
-    font-weight: 900;
-    
 }
 
+#titolo {
+    vertical-align: middle;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.container-header {
+    padding: 10px;
+}
