@@ -5,20 +5,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>html-css-toboolist</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Amiri+Quran&family=Roboto:wght@900&display=swap" rel="stylesheet">
-
+   
 
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
+
     <header>
         <div class="container-header">
             <img id="logo" src="./img/Logo.png" alt="">
             <span id="titolo">Toboolist</span>
         </div>      
     </header>
+
+    <nav class="container nav">
+        <button id="button-task">Add Task</button>
+        <button id="button-section">Add Section</button>
+    </nav>
+
+    <main class="container main">
+        <section class="new-task">
+            <details>
+                <summary class="task">New Task</summary>
+                    <span class="task-item">
+                        <span id="check">
+                            &check; 
+                        </span>
+                        Quarterly Newsletter
+                        <span id="editorial">
+                            Editorial
+                        </span>
+                    </span>
+            </details>
+        </section>
+
+    </main>
     
   
 </body>
