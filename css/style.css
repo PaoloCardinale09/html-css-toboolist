@@ -72,6 +72,8 @@ button {
 /* sezione new task */
 .container.main {
     margin-top: 2px;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
 }
 
 .task, .today {
